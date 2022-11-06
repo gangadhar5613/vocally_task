@@ -18,7 +18,7 @@ export default async function user(req, res)
     await connectMongo();
     console.log('Connected to DB');
     const oldUser = await UserModel.findOne({ email: req.body.email })
-    console.log(oldUser,'old user');
+    
     if (oldUser)
     {
        res.status(403)

@@ -55,6 +55,15 @@ function Form()
     return re.test(email);
   }
 
+
+  const errorMessageDisplay = (message) =>
+  {
+
+    
+    setInterval(() => {
+        setReponse(responseMessage)
+    }, 6000);
+  }
   
   
 
@@ -83,7 +92,8 @@ function Form()
         (response.status == 200 ? setReponse({...responseSer,res:true}) : setReponse({...responseSer,message:data.message}))
         setFormValues(initialValues)
         setIsSubmit(false)
-        setFormMessage({...errorMessages,isAttempted:false})
+        setFormMessage({ ...errorMessages, isAttempted: false })
+        errorMessageDisplay();
       }
     } catch (error)
     {
