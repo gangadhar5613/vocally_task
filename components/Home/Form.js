@@ -132,7 +132,7 @@ function Form()
               value={formValues.email}
               className="border border-gray-600 text-gray-300 md:w-5/6 bg-black w-full  rounded-full p-2 pl-4 pt-4 pb-4 pr-3 mt-3"
               type={"text"}
-              placeholder="Enter Your Name"
+              placeholder="Enter Your Email"
             ></input>
             <span className="text-red-500 text-sm my-1">
               {errorMessages.email}
