@@ -17,18 +17,18 @@ export default async function user(req, res)
     
     await connectMongo();
     console.log('Connected to DB');
-       
     const oldUser = await UserModel.findOne({ email: req.body.email })
-       
-    console.log(oldUser, 'old user');
-       
-    if (oldUser){
+    console.log(oldUser,'old user');
+    if (oldUser)
+    {
        res.status(403)
         res.json({message:'Response has been caputured previously on this email id'})
-    } else{
+    } else
+    {
         const userData = await UserModel.create(user)
         res.status(200)
-        res.json({res:'Captured successfully'}) 
+        res.json({userData})
+       
     }
 
    } catch (error) {

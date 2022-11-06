@@ -1,5 +1,10 @@
 import { useState, useEffect } from "react";
 
+
+
+function Form()
+{
+  
   const initialValues = {
     fullName: "",
     email: "",
@@ -15,10 +20,6 @@ import { useState, useEffect } from "react";
     res: null,
     message:''
   }
-
-function Form()
-{
-  
   const [formValues, setFormValues] = useState(initialValues);
   const [errorMessages, setFormMessage] = useState(initialErrorMessages);
   const [isSubmit, setIsSubmit] = useState(false);
@@ -68,7 +69,7 @@ function Form()
     
     try
     {     
-      if ((formValues.fullName && formValues.email) && (errorMessages.fullName && errorMessages.email))
+      if ((formValues.fullName && formValues.email) && (!errorMessages.fullName && !errorMessages.email))
       {
          setIsSubmit(true);
         const response = await fetch("/api/user", {
