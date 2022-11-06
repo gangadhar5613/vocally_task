@@ -7,7 +7,7 @@ function Footer()
         <section className="">
             <div className="flex pb-4 md:py-0 flex-col md:flex-row md:items-baseline md:pb-1  justify-center items-center">
               <div className="mb-2">
-                <img className="" src="/images/logo.svg" />
+                <img className="" alt="OpenAuto Logo" src="/images/logo.svg" />
               </div>
               
               <div className="flex justify-between md:mr-3 md:flex md:justify-end  w-full items-center">

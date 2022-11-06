@@ -7,7 +7,7 @@ function Header()
         <header className=" flex flex-col  lg:w-full   md:flex-row md:justify-between md:items-center  items-start justify-start p-10 md:p-6">
 
             <div className="w-2/6 xl:w-7/h-1/2 md:w-2/12 ">
-                 <img className="w-full" src="/images/logo.svg"></img>
+                 <img className="w-full" alt="OpenAuto_Logo" src="/images/logo.svg"></img>
             </div>
            
             <div className="hidden md:basis-1/2 md:w-full      md:flex">

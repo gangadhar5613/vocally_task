@@ -22,6 +22,7 @@ function Main()
                             <img
                             className="w-full md:w-full"
                             src="/images/Pickup_Illustration.png"
+                            alt='service illustration image'
                             />
                         </div>
                         <div className='w-3/4  md:flex md:justify-between md:items-center'>
@@ -49,7 +50,8 @@ function Main()
                             <div >
                                 <img
                                 className="w-full "
-                                src="/images/pickupservice.png"
+                            src="/images/pickupservice.png"
+                            alt='mobile application illustration'
                                 />
                             </div>
                     </section>
