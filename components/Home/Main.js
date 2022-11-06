@@ -28,12 +28,6 @@ function Main() {
           </div>
           <div className="w-3/4  md:flex md:justify-between md:items-center">
             <div className=" hidden md:flex ">
-              <a
-                href="#goingDown"
-                className="text-xl border text-white rounded-full   p-2"
-              >
-                <i className="fa-solid fa-arrow-down"></i>
-              </a>
             </div>
             <div className=" flex justify-center md:justify-end w-full ">
               <a href="#">
