@@ -60,7 +60,7 @@ function Main()
                             <h3 className="text-gray-400 md:pb-2 w-4/6 md:w-3/6 leading-normal  text-4xl font-bold">
                                 Focused on Time Saving
                             </h3>
-                            <p className="text-gray-500 md:text-base text-center md:text-start md:leading-8   md:indent-1     pt-6 p-6 md:p-0 md:pb-4 leading-9  text-xl">
+                            <p className="text-gray-500 md:text-base text-center md:text-start md:leading-8   md:indent-1     pt-6 p-6 md:p-0 md:pb-4 leading-9   text-base">
                                 Lorem ipsum dolor sit amet consectetur adipiscing elit praesent dis,
                                 metus primis platea gravida pellentesque sapien iaculis et cubilia
                                 ut, porta interdum volutpat habitasse taciti class porttitor
