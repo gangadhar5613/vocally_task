@@ -51,11 +51,11 @@ function Footer()
                         <span>Cookie Policy</span>
             </div>
             <div className="flex mt-6 md:flex-row md:justify-end md:basis-1/2 justify-between items-center ">
-              <i className="fa-brands pr-4 fa-facebook-f text-gray-400 text-xl  "></i>
-              <i className="fa-brands pr-4 fa-twitter text-gray-400 text-xl  "></i>
-              <i className="fa-brands pr-4 fa-youtube text-gray-400 text-xl  "></i>
-              <i className="fa-brands pr-4 fa-linkedin text-gray-400 text-xl  "></i>
-              <i className="fa-brands pr-4 fa-instagram text-gray-400 text-xl "></i>
+              <a href='#'><i className="fa-brands pr-4 fa-facebook-f text-gray-400 text-xl  "></i></a>
+              <a href='#'><i className="fa-brands pr-4 fa-twitter text-gray-400 text-xl  "></i></a>
+              <a href='#'><i className="fa-brands pr-4 fa-youtube text-gray-400 text-xl  "></i></a>
+              <a href='#'><i className="fa-brands pr-4 fa-linkedin text-gray-400 text-xl  "></i></a>
+              <a href='#'><i className="fa-brands pr-4 fa-instagram text-gray-400 text-xl "></i></a>
             </div>
         </section>
     </footer>

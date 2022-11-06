@@ -35,11 +35,11 @@ function Main()
                                     </a>
                                 </div>
                                 <div className=" flex justify-center md:justify-end w-full ">
-                                    <i className="fa-brands p-4 fa-facebook-f text-gray-400 text-xl"></i>
-                                    <i className="fa-brands  p-4  fa-twitter text-gray-400 text-xl"></i>
-                                    <i className="fa-brands  p-4  fa-youtube text-gray-400 text-xl "></i>
-                                    <i className="fa-brands  p-4  fa-linkedin text-gray-400 text-xl "></i>
-                                    <i className="fa-brands  p-4  fa-instagram text-gray-400 text-xl "></i>
+                                   <a href='#'><i className="fa-brands p-4 fa-facebook-f text-gray-400 text-xl"></i></a> 
+                                   <a href='#'></a> <i className="fa-brands  p-4  fa-twitter text-gray-400 text-xl"></i>
+                                   <a href='#'></a> <i className="fa-brands  p-4  fa-youtube text-gray-400 text-xl "></i>
+                                    <a href='#'></a><i className="fa-brands  p-4  fa-linkedin text-gray-400 text-xl "></i>
+                                    <a href='#'><i className="fa-brands  p-4  fa-instagram text-gray-400 text-xl "></i></a> 
                                 </div>
                         </div>
                     </section> 
