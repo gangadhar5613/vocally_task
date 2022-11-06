@@ -5,18 +5,19 @@ function Header()
 {
     return (
         <header className=" flex flex-col  lg:w-full   md:flex-row md:justify-between md:items-center  items-start justify-start p-10 md:p-6">
-            <div className="w-2/6 md:w-2/12 ">
+
+            <div className="w-2/6 xl:w-7/h-1/2 md:w-2/12 ">
                  <img className="w-full" src="/images/logo.svg"></img>
             </div>
            
             <div className="hidden md:basis-1/2 md:w-full      md:flex">
                 <div className="flex w-full md:basis-1/4 justify-center items-center ">
                     <div className="p-1">
-                         <i class="fa-solid text-gray-400 fa-phone"></i>
+                         <i className="fa-solid text-gray-400 fa-phone"></i>
                     </div>
                     <div className="p-1  ">
                         <p>
-                        <a className="text-gray-300 text-sm" href="tel:+7695864558">
+                        <a className="text-gray-300 xxs:text-sm text-sm" href="tel:+7695864558">
                             +769 586 4558
                         </a>
                         </p>
@@ -24,7 +25,7 @@ function Header()
                 </div>
                 <div className="flex w-full md:basis-1/4 justify-center items-center ">
                     <div className="p-1 ">
-                       <i class="fa-solid text-gray-400 fa-envelope"></i>
+                       <i className="fa-solid text-gray-400 fa-envelope"></i>
                     </div>
                     <div className="p-1">
                         <a

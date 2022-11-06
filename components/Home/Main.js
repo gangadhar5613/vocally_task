@@ -3,11 +3,10 @@ import Form from './Form'
 function Main()
 {
     return (
-            <main className='h-fit'>
-               <section className="bg-black md:p-8 my-5 md:basis-1/2 py-5 bg-[url('/images/bg-edit.png')] bg-center   p-4 flex-col items-center justify-center text-center md:flex md:flex-row  md:justify-between md:items-center   ">
+        <main className='h-fit'>
+               <section className="bg-black md:p-8 my-5 md:my-1 md:basis-1/2 py-5 bg-[url('/images/bg-world.png')] bg-center   p-4 flex-col items-center justify-center text-center md:flex md:flex-row  md:justify-between md:items-center   ">
                     <section className=" flex md: md:flex-col md:items-start   h-4/6 flex-col md:text-start   md:w-full items-center justify-start ">
-
-                            <h2 className="text-4xl pb-2 mt-6 md:text-5xl leading-normal 
+                            <h2 className="text-4xl pb-2 mt-6 md:text-5xl leading-normal md:leading-snug 
                                 font-bold text-gray-300  p-1 ">
                                 Vehicle Maintenance From The Comfort of Your Home
                             </h2>
@@ -16,8 +15,6 @@ function Main()
                                 you deal with unpected repairs worry-free
                             </p>
                             <Form />
-
-
                     </section>
 
                     <section className=" flex md:flex-col   flex-col mt-8 items-center justify-center">  
@@ -31,33 +28,33 @@ function Main()
                                 <div className=" hidden md:flex ">
                                     <a
                                     href="#goingDown"
-                                    className="text-xl border text-white rounded-full animate-bounce  p-2"
+                                    className="text-xl border text-white rounded-full   p-2"
                                     >
-                                    <i class="fa-light fa-chevron-down"></i>
+                                    <i className="fa-solid fa-arrow-down"></i>
                                     </a>
                                 </div>
                                 <div className=" flex justify-center md:justify-end w-full ">
-                                    <i className="fa-brands p-4 fa-facebook-f text-gray-400 text-2xl"></i>
-                                    <i className="fa-brands  p-4  fa-twitter text-gray-400 text-2xl"></i>
-                                    <i className="fa-brands  p-4  fa-youtube text-gray-400 text-2xl "></i>
-                                    <i className="fa-brands  p-4  fa-linkedin text-gray-400 text-2xl "></i>
-                                    <i className="fa-brands  p-4  fa-instagram text-gray-400 text-2xl "></i>
+                                    <i className="fa-brands p-4 fa-facebook-f text-gray-400 text-xl"></i>
+                                    <i className="fa-brands  p-4  fa-twitter text-gray-400 text-xl"></i>
+                                    <i className="fa-brands  p-4  fa-youtube text-gray-400 text-xl "></i>
+                                    <i className="fa-brands  p-4  fa-linkedin text-gray-400 text-xl "></i>
+                                    <i className="fa-brands  p-4  fa-instagram text-gray-400 text-xl "></i>
                                 </div>
                         </div>
-                    </section>
-                    
-            </section>
-                  <article className="flex  md:flex-row md:pt-20 h-full flex-col-reverse p-6 justify-center items-center text-center bg-blue-950">
-                        <section className="w-4/6 md:basis-1/3 mt-2 pb-8  h-full ">
+                    </section> 
+                         
+                </section>
+                <article className="flex  md:flex-row md:pt-20 h-full flex-col-reverse p-6 justify-center items-center text-center bg-blue-950">
+                    <section className="w-4/6 md:basis-1/3 mt-2 pb-8  h-full ">
                             <div >
                                 <img
                                 className="w-full "
                                 src="/images/pickupservice.png"
                                 />
                             </div>
-                        </section>
+                    </section>
 
-                        <section className="w-full md:basis-1/2 md:pl-32 flex md:text-start md:items-start flex-col   justify-center items-center h-full mb-4 pt-8 ">
+                    <section className="w-full md:basis-1/2 md:pl-32 flex md:text-start md:items-start flex-col   justify-center items-center h-full mb-4 pt-8 ">
                             <h3 className="text-gray-400 md:pb-2 w-4/6 md:w-3/6 leading-normal  text-4xl font-bold">
                                 Focused on Time Saving
                             </h3>
@@ -77,10 +74,10 @@ function Main()
                                     Download the mobile app
                                 </a>
                             </div>
-                        </section>
-            </article>
+                    </section>
+                </article>
                 <hr className=" border border-gray-800" />
-            </main>
+        </main>
     )
 }
 

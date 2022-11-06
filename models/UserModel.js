@@ -1,6 +1,6 @@
 import { Schema, model, models } from "mongoose";
 
-
+//  Schema for the User based on the details needed.
 
 
 const UserSchema = new Schema({
