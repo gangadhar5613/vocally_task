@@ -37,7 +37,7 @@ function Form() {
       case "email":
         setFormMessage({
           ...errorMessages,
-          [name]: emailValidation(value) ? "" : " Please enter a valid name",
+          [name]: emailValidation(value) ? "" : " Please enter a valid email",
         });
         setFormValues({ ...formValues, [name]: value });
         break;
